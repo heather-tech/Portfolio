@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I am deeply passionate about about coding, finding immense joy in the creative process.  &nbsp;
+              I am deeply passionate about coding, finding immense joy in the creative process.  &nbsp;
               <i>
                 <b className="purple">React and JavaScript </b> stand
                 out as my favorite tools to craft innovative solutions.{" "}
