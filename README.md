@@ -28,3 +28,7 @@ This project was built using these technologies.
 <h2 align="center"> Forked and Modified From </h2>
 
 [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
+
+<h2 align="center"> HK logo created by </h2>
+
+[Sofiakatzman](https://github.com/sofiakatzman)
