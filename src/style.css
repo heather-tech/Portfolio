@@ -434,6 +434,7 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
+  align-items: center;
 }
 
 .blockquote-footer {
