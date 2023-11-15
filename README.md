@@ -25,6 +25,6 @@ This project was built using these technologies.
 
 
 
-<h2 align="center"> Fork and Modified From </h2>
+<h2 align="center"> Forked and Modified From </h2>
 
 [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
