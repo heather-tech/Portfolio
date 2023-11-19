@@ -11,6 +11,11 @@ import { FiMail } from "react-icons/fi";
 function Footer() {
   const EmailIcon = () => {
     const emailAddress = 'heather.k.tech@gmail.com'
+    return(
+      <a href={'malito:${emailAddress}'} > 
+      <FiMaili />
+      </a>
+    )
   }
   return (
     <Container fluid className="footer">
@@ -18,8 +23,9 @@ function Footer() {
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
           <li className="social-icons">
+          <li className="email-icons">
               <a
-                href={'malito:${emailAddress}'}
+                // href={'malito:${emailAddress}'}
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -56,6 +62,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
+              </li>
             </li>
           </ul>
         </Col>
