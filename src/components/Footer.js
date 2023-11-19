@@ -5,34 +5,13 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
-
 
 function Footer() {
-  const EmailIcon = () => {
-    const emailAddress = 'heather.k.tech@gmail.com'
-    return(
-      <a href={'malito:${emailAddress}'} > 
-      <FiMaili />
-      </a>
-    )
-  }
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-          <li className="social-icons">
-          <li className="email-icons">
-              <a
-                // href={'malito:${emailAddress}'}
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FiMail />
-              </a>
-            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/heather-tech"
@@ -62,7 +41,6 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-              </li>
             </li>
           </ul>
         </Col>
