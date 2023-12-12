@@ -602,8 +602,8 @@ button:focus {
 /* --------- */
 
 .resume-section {
-  position: relative !important;
-  padding-top: 110px !important;
+  position: relative !important; 
+  padding-top: 110px !important; /* Area around button */
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -613,6 +613,7 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  margin-bottom:0cm;
 }
 
 .resume-left {
@@ -622,6 +623,12 @@ button:focus {
 .resume-right {
   padding-left: 80px !important;
 }
+
+.react-pdf__Page__canvas {
+  display: block;
+  margin: 5%; /* Creates space between resume pages */
+}
+
 
 @media (max-width: 767px) {
   .resume-left {
