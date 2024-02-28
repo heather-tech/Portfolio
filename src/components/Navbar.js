@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
-  // AiFillStar,
+  // AiOutlineContacts,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -69,6 +69,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contactform"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item> */}
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -94,7 +104,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://heather-tech.github.io/"
+                href="https://dev.to/heathertech"
                 target="_blank"
                 rel="noreferrer"
               >
