@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
+import story from "../../Assets/Projects/StoryStacker.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
 import app from "../../Assets/Projects/AppJournal.png";
@@ -43,18 +43,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          { <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={story}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="StoryStacker"
+              description="A user-friendly command-line interface (CLI) application that allows Book Club leaders to efficiently manage authors, books, and their members."
+              ghLink="https://github.com/heather-tech/StoryStacker"
+              demoLink="https://youtu.be/xJLEcwlOZUQ"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          /* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
