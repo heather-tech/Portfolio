@@ -46,14 +46,6 @@ function ResumeNew() {
           </div>
         </Row>
 
-        {/* <Row className="resume" >
-          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="d-flex justify-content-center">
-          {[...Array(numPages)].map((_, index) => (
-            <Page key={index + 1} pageNumber={index + 1} scale={width > 786 ? 1.7 : 0.6} />
-          ))}
-          </Document>
-        </Row> */}
-
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
