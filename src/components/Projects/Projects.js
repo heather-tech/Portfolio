@@ -48,9 +48,9 @@ function Projects() {
               imgPath={story}
               isBlog={false}
               title="StoryStacker"
-              description="A user-friendly command-line interface (CLI) application that allows Book Club leaders to efficiently manage authors, books, and their members."
+              description="A user-friendly command-line interface (CLI) application that allows Book Club leaders to efficiently manage authors and books."
               ghLink="https://github.com/heather-tech/StoryStacker"
-              demoLink="https://youtu.be/xJLEcwlOZUQ"              
+              demoLink="https://youtu.be/_icgIhfl-tc"              
             />
           </Col>
 
